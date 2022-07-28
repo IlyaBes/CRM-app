@@ -13,7 +13,7 @@ body {
     height: 100%;
 }
 
-.menu {
+.menu { 
     border-right: 1px solid black;
     display: grid;
     grid-template-rows: 60px 1fr;
@@ -48,6 +48,19 @@ body {
     height: 100%;
     background-color: pink;
     border-radius: 4px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:100%;
 }
 
 .lines {
@@ -130,4 +143,76 @@ body {
     display: grid;
     grid-template-columns: repeat(5, 50px);
     justify-content: space-around;
+}
+
+ .line10 {
+    height: 80px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line11 {
+    height: 80px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.line12 {
+    height: 80px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line13 {
+    height: 80px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.line14 {
+    height: 80px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line15{
+    height: 80px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.line16 {
+    height: 80px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.line17 {
+    height: 80px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.line18 {
+    height: 80px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
 }
